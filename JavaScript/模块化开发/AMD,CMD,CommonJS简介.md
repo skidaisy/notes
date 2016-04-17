@@ -98,7 +98,9 @@ CMD 是 SeaJS 在推广过程中对模块定义的规范化产出
 3. AMD 的 API 默认是一个当多个用，CMD 的 API 严格区分，推崇职责单一。
     - AMD 里，require 分全局 require 和局部 require，都叫 require
     - CMD 里，没有全局 require，而是根据模块系统的完备性，提供 seajs.use 来实现模块系统的加载启动。CMD 里，每个 API 都简单纯粹。
-  
+
+Require.js同时适用于浏览器端和服务器环境的模块加载。Sea.js则专注于浏览器端的模块加载实现。通过Node扩展也可以运行于Node环境中   
+
 > 参考资料    
 
 AMD：https://link.zhihu.com/?target=https%3A//github.com/amdjs/amdjs-api/wiki/AMD   
