@@ -56,8 +56,8 @@ define(id, deps, factory)
 
 - require 加载模块,同步往下执行
 - require.async 则是异步回调执行,一般用来加载可延迟异步加载的模块
-- require.resolve 使用模块系统内部的路径解析机制来解析并返回模块路径。该函数不会加载模块，只返回解析后的绝对路径
-
+- require.resolve 使用模块系统内部的路径解析机制来解析并返回模块路径。该函数不会加载模块，只返回解析后的绝对路径    
+代表：Sea.js   
 #### AMD和CMD的区别(玉伯)
 
 
