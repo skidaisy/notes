@@ -5,7 +5,8 @@
 Promise是一种抽象对象。CommonJS定义了Promises/A规范。   
 Promise库：bluebird, Q,then.js,es6-promise,async    
 
-Promise 对象是对一个异步事件最终状态的封装，其最基本的用法是通过then方法注册一个回调函数，来接收该异步事件的结果.这个回调函数接受执行成功的返回值或执行失败的错误原因(错误原因一般是Error对象)    
+Promise 对象是对一个异步事件最终状态的封装，其最基本的用法是通过 then 方法注册一个回调函数，来接收该异步事件的结果    
+这个回调函数接受执行成功的返回值或执行失败的错误原因(错误原因一般是Error对象)    
 需要注意的是，then方法执行的返回值是一个Promise对象，而then方法接受的回调函数的返回值则可以是任意的JavaScript对象，包括Promises。基于这种机制，Promise对象的链式调用就起作用了。   
 
 #### 一个 Promise 可以处于三种状态：    
